@@ -1,0 +1,32 @@
+Source: qcom-libdiag
+Maintainer: Jairaj Solanki <jsolanki@qti.qualcomm.com>
+Standards-Version: 4.6.2
+Section: misc
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13)
+
+Package: qcom-libdiag
+Architecture: arm64
+Description: Qualcomm Diag shared library
+ Shared library for the Qualcomm diagnostic framework.
+Section: libs
+Priority: optional
+Depends: ${misc:Depends}, libc6 (>= 2.17)
+
+Package: qcom-libdiag-dev
+Architecture: arm64
+Description: Qualcomm Diag shared library - development files
+ Development headers, static libraries and pkg-config files for
+ the Qualcomm Diag shared library.
+Section: libdevel
+Priority: optional
+Depends: ${misc:Depends}, qcom-libdiag (= ${binary:Version})
+
+Package: qcom-diag
+Architecture: arm64
+Description: Qualcomm Diag tools
+ Diagnostic tools and utilities for Qualcomm platforms.
+Section: utils
+Priority: optional
+Depends: ${misc:Depends}, qcom-libdiag (= ${binary:Version})
+
