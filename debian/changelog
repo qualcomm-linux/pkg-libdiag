@@ -1,0 +1,11 @@
+qcom-libdiag (1.0.3-1) UNRELEASED; urgency=medium
+
+  [ Jairaj Solanki ]
+  * Initial packaging of Qualcomm diag prebuilt binaries.
+    - qcom-libdiag: diagnostic shared library
+    - qcom-libdiag-dev: diagnostic library development files
+    - qcom-diag: diagnostic tools and utilities
+    - qcom-diag-headers: public diag header files
+
+
+ -- Jairaj Solanki <jsolanki@qti.qualcomm.com>  Tue, 05 May 2026 18:05:31 +0530
