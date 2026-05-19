@@ -1,3 +1,9 @@
+qcom-libdiag (1.0.3-2) UNRELEASED; urgency=medium
+
+  * Initial commit
+
+ -- Jairaj Solanki <jsolanki@qti.qualcomm.com>  Tue, 19 May 2026 11:00:31 +0000
+
 qcom-libdiag (1.0.3-1) unstable; urgency=medium
 
   [ Jairaj Solanki ]
