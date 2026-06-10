@@ -1,4 +1,4 @@
-qcom-libdiag (1.0.3-1) unstable; urgency=medium
+qcom-libdiag (1.0.3-1) UNRELEASED; urgency=medium
 
   [ Jairaj Solanki ]
   * Initial packaging of Qualcomm diag prebuilt binaries.
