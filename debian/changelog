@@ -1,4 +1,4 @@
-qcom-libdiag (1.0.3-1qli+staging1~bpo13+1) UNRELEASED; urgency=medium
+qcom-libdiag (1.0.3-1qli+staging1~bpo13+1~) UNRELEASED; urgency=medium
 
   * Rebuild for trixie.
 
