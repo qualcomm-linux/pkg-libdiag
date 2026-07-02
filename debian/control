@@ -1,5 +1,7 @@
 Source: qcom-libdiag
 Maintainer: Jairaj Solanki <jsolanki@qti.qualcomm.com>
+Uploaders:
+ Agathe Porte <agathe.porte@oss.qualcomm.com>
 Standards-Version: 4.6.2
 Section: misc
 Rules-Requires-Root: no

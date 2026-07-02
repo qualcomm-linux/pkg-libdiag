@@ -8,15 +8,15 @@ export DH_VERBOSE = 1
 override_dh_auto_install:
 ifeq ($(DEB_HOST_ARCH),arm64)
 	mkdir -p $(CURDIR)/debian/qcom-libdiag/
-	cp -a data/qcom-libdiag/arm64/* $(CURDIR)/debian/qcom-libdiag/
+	cp -a qcom-libdiag/arm64/* $(CURDIR)/debian/qcom-libdiag/
 endif
 ifeq ($(DEB_HOST_ARCH),arm64)
 	mkdir -p $(CURDIR)/debian/qcom-libdiag-dev/
-	cp -a data/qcom-libdiag-dev/arm64/* $(CURDIR)/debian/qcom-libdiag-dev/
+	cp -a qcom-libdiag-dev/arm64/* $(CURDIR)/debian/qcom-libdiag-dev/
 endif
 ifeq ($(DEB_HOST_ARCH),arm64)
 	mkdir -p $(CURDIR)/debian/qcom-diag/
-	cp -a data/qcom-diag/arm64/* $(CURDIR)/debian/qcom-diag/
+	cp -a qcom-diag/arm64/* $(CURDIR)/debian/qcom-diag/
 endif
 	:
 
