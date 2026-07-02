@@ -1,4 +1,4 @@
-qcom-libdiag (1.0.3-1qli+staging1.1) UNRELEASED; urgency=medium
+qcom-libdiag (1.0.3-1qli+staging1~) UNRELEASED; urgency=medium
 
   * Initial release
   * Version 1.0.3-1 was uploaded by mistake in qli-staging/trixie. Bump all
