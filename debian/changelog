@@ -1,3 +1,9 @@
+qcom-libdiag (1.0.3-1qli+staging1~bpo14+1~) UNRELEASED; urgency=medium
+
+  * Unreleased changes
+
+ -- root <root@70c35f4bea36>  Thu, 02 Jul 2026 14:41:56 +0000
+
 qcom-libdiag (1.0.3-1qli+staging1~bpo13+1) trixie; urgency=medium
 
   [ Agathe Porte ]
