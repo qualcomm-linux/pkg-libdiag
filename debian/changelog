@@ -1,17 +1,8 @@
-qcom-libdiag (1.0.3-0qli+staging1) UNRELEASED; urgency=medium
+qcom-libdiag (1.0.3-1qli+staging1.1) UNRELEASED; urgency=medium
 
-  * Initial commit
+  * Initial release
+  * Version 1.0.3-1 was uploaded by mistake in qli-staging/trixie. Bump all
+    versions so they appear higher even if this package was never released
+    into Debian.
 
- -- Jairaj Solanki <jsolanki@qti.qualcomm.com>  Tue, 19 May 2026 11:00:31 +0000
-
-qcom-libdiag (1.0.3-1) unstable; urgency=medium
-
-  [ Jairaj Solanki ]
-  * Initial packaging of Qualcomm diag prebuilt binaries.
-    - qcom-libdiag: diagnostic shared library
-    - qcom-libdiag-dev: diagnostic library development files
-    - qcom-diag: diagnostic tools and utilities
-    - qcom-diag-headers: public diag header files
-
-
- -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Tue, 19 May 2026 11:00:01 +0000
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 02 Jul 2026 15:02:16 +0200
