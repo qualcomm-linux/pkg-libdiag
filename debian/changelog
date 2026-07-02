@@ -1,8 +1,9 @@
-qcom-libdiag (1.0.3-1qli+staging1~) UNRELEASED; urgency=medium
+qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
+  [ Agathe Porte ]
   * Initial release
   * Version 1.0.3-1 was uploaded by mistake in qli-staging/trixie. Bump all
     versions so they appear higher even if this package was never released
     into Debian.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 02 Jul 2026 15:02:16 +0200
+ -- root <root@489de46a9c85>  Thu, 02 Jul 2026 13:59:15 +0000
