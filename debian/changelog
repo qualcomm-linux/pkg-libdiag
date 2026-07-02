@@ -1,8 +1,9 @@
-qcom-libdiag (1.0.3-1qli+staging1~bpo13+1~) UNRELEASED; urgency=medium
+qcom-libdiag (1.0.3-1qli+staging1~bpo13+1) trixie; urgency=medium
 
+  [ Agathe Porte ]
   * Rebuild for trixie.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 02 Jul 2026 16:04:24 +0200
+ -- root <root@95be10416d00>  Thu, 02 Jul 2026 14:39:48 +0000
 
 qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
