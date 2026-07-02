@@ -1,1 +1,1 @@
-tar-ignore=.
+--extend-diff-ignore=^\.github
