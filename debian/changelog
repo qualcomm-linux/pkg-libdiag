@@ -13,8 +13,13 @@ libdiag (1.0.3-0qli1~) UNRELEASED; urgency=medium
   * d/rules: add comment about override_dh_dwz
   * d/copyright: fix license name
   * d/control: put myself as maintainer for QLI
+  * d/rules: add maintainerclean target
+  * d/control: rework package descriptions
+  * Bump Standards-Version to 4.7.4 (no changes needed)
+  * Use libdiag1 and libdiag-dev as binary package names, libdiag as srcpkg
+  * libdiag1: start tracking symbols
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 15:08:36 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 15:49:12 +0200
 
 qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
