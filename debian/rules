@@ -7,3 +7,11 @@ export DH_VERBOSE = 1
 
 # binaries are already stripped
 override_dh_dwz: ;
+
+maintainerclean:
+	rm -r \
+		qcom-diag/ \
+		qcom-diag-dbgsym/ \
+		qcom-libdiag/ \
+		qcom-libdiag-dbgsym/ \
+		qcom-libdiag-dev/
