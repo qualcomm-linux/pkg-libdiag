@@ -5,13 +5,6 @@ export DH_VERBOSE = 1
 %:
 	dh $@
 
-
-override_dh_fixperms: ;
-
-override_dh_shlibdeps: ;
-
-override_dh_strip: ;
-
 override_dh_dwz: ;
 
 DEB_VERSION = $(shell dpkg-parsechangelog -S 'Version' | cut -d ':' -f 2)

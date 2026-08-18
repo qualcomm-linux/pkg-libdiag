@@ -6,6 +6,8 @@ Standards-Version: 4.6.2
 Section: non-free/misc
 Build-Depends:
  debhelper-compat (= 13),
+Build-Depends-Arch:
+ libglib2.0-0t64,
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-libdiag
 Vcs-Git: https://github.com/qualcomm-linux/pkg-libdiag.git
 
