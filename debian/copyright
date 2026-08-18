@@ -1,4 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Disclaimer:
+ This source package contains proprietary software with no sources distributed,
+ and as such it does not qualify for main and has to be moved to non-free.
 
 Files:
  *
