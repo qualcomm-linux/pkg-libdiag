@@ -13,8 +13,8 @@ Description: Qualcomm Diag shared library
  Shared library for the Qualcomm diagnostic framework.
 Section: non-free/libs
 Depends:
- libc6 (>= 2.17),
  ${misc:Depends},
+ ${shlibs:Depends},
 
 Package: qcom-libdiag-dev
 Architecture: arm64
@@ -25,6 +25,7 @@ Section: non-free/libdevel
 Depends:
  qcom-libdiag (= ${binary:Version}),
  ${misc:Depends},
+ ${shlibs:Depends},
 
 Package: qcom-diag
 Architecture: arm64
@@ -34,3 +35,4 @@ Section: non-free/utils
 Depends:
  qcom-libdiag (= ${binary:Version}),
  ${misc:Depends},
+ ${shlibs:Depends},
