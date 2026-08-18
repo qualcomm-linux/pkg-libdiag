@@ -1,7 +1,7 @@
-Version: 5
+version=4
 
-Source: https://qartifactory-edge.qualcomm.com/artifactory/api/search/artifact?name=qcom-diag
-Matching-Pattern: https://qartifactory-edge\.qualcomm\.com/artifactory/api/storage/qsc_releases-cache/software/chip/component/core-technologies\.qclinux\.0\.0/260416.1/prebuilt_trixie/qcom-diag_@ANY_VERSION@_arm64@ARCHIVE_EXT@
-Search-Mode: plain
-Downloadurlmangle: s%/api/storage/qsc_releases-cache/%/qsc_releases/%
-Filenamemangle: s/qcom-diag/libdiag/
+opts=searchmode=plain,\
+downloadurlmangle=s%/api/storage/qsc_releases-cache/%/qsc_releases/%,\
+filenamemangle=s/qcom-diag/libdiag/; \
+https://qartifactory-edge.qualcomm.com/artifactory/api/search/artifact?name=qcom-diag \
+https://qartifactory-edge\.qualcomm\.com/artifactory/api/storage/qsc_releases-cache/software/chip/component/core-technologies\.qclinux\.0\.0/260416.1/prebuilt_trixie/qcom-diag_@ANY_VERSION@_arm64@ARCHIVE_EXT@
