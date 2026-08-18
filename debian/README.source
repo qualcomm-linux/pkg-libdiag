@@ -1,0 +1,9 @@
+The libdiag name seems well-known on the internet even if it is not an
+opensource project. We take that opportunity use the `libdiag1` binary package
+name to match the soname of the libdiag library.
+
+Possible conflicts while inspecting codesearch.debian.org shows that the
+`diagnostics` [1] source package creates a `libdiagnostics0t64` package, but is
+not likely to interfere with the `libdiag1` name.
+
+[1] https://tracker.debian.org/pkg/diagnostics

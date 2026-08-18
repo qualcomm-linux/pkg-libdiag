@@ -1,4 +1,4 @@
-Source: qcom-libdiag
+Source: libdiag
 Maintainer: Agathe Porte <agathe.porte@oss.qualcomm.com>
 Standards-Version: 4.6.2
 Section: non-free/misc
@@ -9,7 +9,7 @@ Build-Depends-Arch:
 Vcs-Browser: https://github.com/qualcomm-linux/pkg-libdiag
 Vcs-Git: https://github.com/qualcomm-linux/pkg-libdiag.git
 
-Package: qcom-libdiag
+Package: libdiag1
 Architecture: arm64
 Description: Qualcomm Diag shared library
  Shared library for the Qualcomm diagnostic framework.
@@ -18,14 +18,14 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
 
-Package: qcom-libdiag-dev
+Package: libdiag-dev
 Architecture: arm64
 Description: Qualcomm Diag shared library - development files
  Development headers, static libraries and pkg-config files for
  the Qualcomm Diag shared library.
 Section: non-free/libdevel
 Depends:
- qcom-libdiag (= ${binary:Version}),
+ libdiag1 (= ${binary:Version}),
  ${misc:Depends},
  ${shlibs:Depends},
 
@@ -35,6 +35,6 @@ Description: Qualcomm Diag tools
  Diagnostic tools and utilities for Qualcomm platforms.
 Section: non-free/utils
 Depends:
- qcom-libdiag (= ${binary:Version}),
+ libdiag1 (= ${binary:Version}),
  ${misc:Depends},
  ${shlibs:Depends},
