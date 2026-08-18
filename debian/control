@@ -1,6 +1,6 @@
 Source: libdiag
 Maintainer: Agathe Porte <agathe.porte@oss.qualcomm.com>
-Standards-Version: 4.6.2
+Standards-Version: 4.7.4
 Section: non-free/misc
 Build-Depends:
  debhelper-compat (= 13),
