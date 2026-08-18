@@ -4,7 +4,6 @@ Uploaders:
  Agathe Porte <agathe.porte@oss.qualcomm.com>
 Standards-Version: 4.6.2
 Section: misc
-Rules-Requires-Root: no
 Build-Depends: debhelper-compat (= 13)
 
 Package: qcom-libdiag
