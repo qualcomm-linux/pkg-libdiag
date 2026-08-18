@@ -18,8 +18,9 @@ libdiag (1.0.3-0qli1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.7.4 (no changes needed)
   * Use libdiag1 and libdiag-dev as binary package names, libdiag as srcpkg
   * libdiag1: start tracking symbols
+  * d/watch: move back to version 4
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 15:49:12 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 15:56:58 +0200
 
 qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
