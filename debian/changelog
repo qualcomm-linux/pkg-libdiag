@@ -2,7 +2,7 @@ qcom-libdiag (1.0.3-1qli+staging2~) UNRELEASED; urgency=medium
 
   * Unreleased changes
 
- -- root <root@8656edccf79d>  Thu, 02 Jul 2026 14:01:27 +0000
+ -- Debusine Action Bot <noreply@bot.invalid>  Thu, 02 Jul 2026 14:01:27 +0000
 
 qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
@@ -12,4 +12,4 @@ qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
     versions so they appear higher even if this package was never released
     into Debian.
 
- -- root <root@489de46a9c85>  Thu, 02 Jul 2026 13:59:15 +0000
+ -- Debusine Action Bot <noreply@bot.invalid>  Thu, 02 Jul 2026 13:59:15 +0000
