@@ -2,8 +2,19 @@ qcom-libdiag (1.0.3-0qli1~) UNRELEASED; urgency=medium
 
   [ Agathe Porte ]
   * Initial release to QLI
+  * d/control: drop obsolete Rules-Requires-Root
+  * d/control: drop obsolete Priority: fields
+  * d/control: change section to non-free
+  * d/control: add missing shlibs:Depends, drop libc dep
+  * d/rules: use dh_install instead of custom rule
+  * d/control: add missing Vcs-Browser and Vcs-Git
+  * d/rules: drop unneeded overrides
+  * d/rules: drop dpkg-parsechangelog call
+  * d/rules: add comment about override_dh_dwz
+  * d/copyright: fix license name
+  * d/control: put myself as maintainer for QLI
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 14:01:53 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 15:08:36 +0200
 
 qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
