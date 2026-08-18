@@ -11,8 +11,12 @@ Vcs-Git: https://github.com/qualcomm-linux/pkg-libdiag.git
 
 Package: libdiag1
 Architecture: arm64
-Description: Qualcomm Diag shared library
- Shared library for the Qualcomm diagnostic framework.
+Description: Qualcomm Diag framework (runtime library)
+ Qualcomm Diag is a specialized communication interface built into Qualcomm
+ chipsets. It exposes low-level baseband, network logging, and device
+ calibration features to engineers and repair tools via a virtual COM port.
+ .
+ This package provides the runtime library.
 Section: non-free/libs
 Depends:
  ${misc:Depends},
@@ -20,9 +24,12 @@ Depends:
 
 Package: libdiag-dev
 Architecture: arm64
-Description: Qualcomm Diag shared library - development files
- Development headers, static libraries and pkg-config files for
- the Qualcomm Diag shared library.
+Description: Qualcomm Diag framework (development files)
+ Qualcomm Diag is a specialized communication interface built into Qualcomm
+ chipsets. It exposes low-level baseband, network logging, and device
+ calibration features to engineers and repair tools via a virtual COM port.
+ .
+ This package provides files necessary to develop programs using the library.
 Section: non-free/libdevel
 Depends:
  libdiag1 (= ${binary:Version}),
@@ -31,8 +38,12 @@ Depends:
 
 Package: qcom-diag
 Architecture: arm64
-Description: Qualcomm Diag tools
- Diagnostic tools and utilities for Qualcomm platforms.
+Description: Qualcomm Diag framework (tools)
+ Qualcomm Diag is a specialized communication interface built into Qualcomm
+ chipsets. It exposes low-level baseband, network logging, and device
+ calibration features to engineers and repair tools via a virtual COM port.
+ .
+ This package provides diagnostic tools and utilities using the library.
 Section: non-free/utils
 Depends:
  libdiag1 (= ${binary:Version}),
