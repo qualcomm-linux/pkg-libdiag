@@ -1,4 +1,4 @@
-libdiag (1.0.3-0qli1~) UNRELEASED; urgency=medium
+libdiag (1.0.3-0qli1) forky; urgency=medium
 
   [ Agathe Porte ]
   * Initial release to QLI
@@ -20,7 +20,7 @@ libdiag (1.0.3-0qli1~) UNRELEASED; urgency=medium
   * libdiag1: start tracking symbols
   * d/watch: move back to version 4
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 18 Aug 2026 15:56:58 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Tue, 18 Aug 2026 14:01:43 +0000
 
 qcom-libdiag (1.0.3-1qli+staging1) forky; urgency=medium
 
