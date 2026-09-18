@@ -4,6 +4,9 @@ qcom-libdiag (1.0.4-1) UNRELEASED; urgency=medium
   * Bump upstream to qcom-diag 1.0.4 (tag 260513).
     - fix diagid name handling
 
+  [ Axiom Test ]
+  * Axiom test for ubuntu
+
  -- Jairaj Solanki <jsolanki@qti.qualcomm.com>  Mon, 22 Jun 2026 10:27:05 +0530
 
 qcom-libdiag (1.0.3-1) resolute; urgency=medium
