@@ -1,8 +1,8 @@
-libdiag (1.0.3-0qli3~) UNRELEASED; urgency=medium
+libdiag (1.0.5-0qli1) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  * New upstream release
 
- -- Debusine Action Bot <noreply@bot.invalid>  Mon, 07 Sep 2026 12:47:18 +0000
+ -- Agathe Porte <gagath@debian.org>  Mon, 02 Nov 2026 13:37:53 +0100
 
 libdiag (1.0.3-0qli2) forky; urgency=medium
 
