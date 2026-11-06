@@ -1,3 +1,10 @@
+libdiag (1.0.5-0qli1) forky; urgency=medium
+
+  [ Agathe Porte ]
+  * New upstream release
+
+ -- Debusine Action Bot <noreply@bot.invalid>  Thu, 05 Nov 2026 16:08:56 +0000
+
 libdiag (1.0.3-0qli2~bpo13+1) trixie; urgency=medium
 
   [ Lukas Märdian ]
