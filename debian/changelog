@@ -1,3 +1,9 @@
+libdiag (1.0.5-0qli1~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Fri, 06 Nov 2026 09:54:57 +0000
+
 libdiag (1.0.5-0qli1) forky; urgency=medium
 
   [ Agathe Porte ]
