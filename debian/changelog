@@ -1,8 +1,18 @@
-qcom-libdiag (1.0.4-2~) UNRELEASED; urgency=medium
+libdiag (1.0.5-1~) UNRELEASED; urgency=medium
 
+  [ Jairaj Solanki ]
   * WIP — update changelog before next release
 
- -- Jairaj Solanki <jsolanki@qti.qualcomm.com>  Tue, 03 Nov 2026 18:26:56 +0000
+  [ Vivek Kumar ]
+  * Rename source/binary packages to drop the qcom- prefix:
+    qcom-libdiag -> libdiag, qcom-libdiag-dev -> libdiag-dev.
+    qcom-diag is unchanged.
+  * d/control: add Breaks/Replaces against qcom-libdiag and
+    qcom-libdiag-dev so upgrades from the old package names don't
+    fail with a dpkg file-overwrite conflict.
+  * Bump upstream to qcom-diag 1.0.5 (tag 260626).
+
+ -- Vivek Kumar <vivekum@qti.qualcomm.com>  Wed, 11 Nov 2026 17:00:20 +0530
 
 qcom-libdiag (1.0.4-1) resolute; urgency=medium
 
