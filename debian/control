@@ -21,6 +21,8 @@ Section: non-free/libs
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
+Breaks: qcom-libdiag (<< 1.0.5-0qli1)
+Replaces: qcom-libdiag (<< 1.0.5-0qli1)
 
 Package: libdiag-dev
 Architecture: arm64
@@ -35,6 +37,8 @@ Depends:
  libdiag1 (= ${binary:Version}),
  ${misc:Depends},
  ${shlibs:Depends},
+Breaks: qcom-libdiag-dev (<< 1.0.5-0qli1)
+Replaces: qcom-libdiag-dev (<< 1.0.5-0qli1)
 
 Package: qcom-diag
 Architecture: arm64

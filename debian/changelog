@@ -1,8 +1,16 @@
 libdiag (1.0.5-0qli1~bpo13+2~) UNRELEASED; urgency=medium
 
+  [ Debusine Action Bot ]
   * Unreleased changes
 
- -- Debusine Action Bot <noreply@bot.invalid>  Fri, 06 Nov 2026 10:01:30 +0000
+  [ Vivek Kumar ]
+  * d/control: add Breaks/Replaces against qcom-libdiag and
+    qcom-libdiag-dev so upgrades from the old package names don't
+    fail with a dpkg file-overwrite conflict on
+    /usr/lib/aarch64-linux-gnu/libdiag.so(.1) and the dev
+    headers/pkg-config file.
+
+ -- Vivek Kumar <vivekum@qti.qualcomm.com>  Wed, 11 Nov 2026 17:34:42 +0530
 
 libdiag (1.0.5-0qli1~bpo13+1) trixie; urgency=medium
 
