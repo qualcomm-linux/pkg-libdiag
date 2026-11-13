@@ -5,27 +5,13 @@ export DH_VERBOSE = 1
 %:
 	dh $@
 
-override_dh_auto_install:
-ifeq ($(DEB_HOST_ARCH),arm64)
-	mkdir -p $(CURDIR)/debian/qcom-libdiag/
-	cp -a data/qcom-libdiag/arm64/* $(CURDIR)/debian/qcom-libdiag/
-endif
-ifeq ($(DEB_HOST_ARCH),arm64)
-	mkdir -p $(CURDIR)/debian/qcom-libdiag-dev/
-	cp -a data/qcom-libdiag-dev/arm64/* $(CURDIR)/debian/qcom-libdiag-dev/
-endif
-ifeq ($(DEB_HOST_ARCH),arm64)
-	mkdir -p $(CURDIR)/debian/qcom-diag/
-	cp -a data/qcom-diag/arm64/* $(CURDIR)/debian/qcom-diag/
-endif
-	:
-
-override_dh_shlibdeps: ;
-
-override_dh_strip: ;
-
+# binaries are already stripped
 override_dh_dwz: ;
 
-DEB_VERSION = $(shell dpkg-parsechangelog -S 'Version' | cut -d ':' -f 2)
-execute_after_dh_builddeb:
-	:
+maintainerclean:
+	rm -r \
+		qcom-diag/ \
+		qcom-diag-dbgsym/ \
+		qcom-libdiag/ \
+		qcom-libdiag-dbgsym/ \
+		qcom-libdiag-dev/

@@ -1,4 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Disclaimer:
+ This source package contains proprietary software with no sources distributed,
+ and as such it does not qualify for main and has to be moved to non-free.
 
 Files:
  *
@@ -6,7 +9,7 @@ Copyright:
  Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
  All rights reserved.
  Confidential and Proprietary - Qualcomm Technologies, Inc.
-License: Qualcomm.nologin.binaries.license
+License: Qualcomm-Nologin-Binaries
  PLEASE READ THIS LICENSE AGREEMENT ("AGREEMENT") CAREFULLY. THIS AGREEMENT IS
  A BINDING LEGAL AGREEMENT ENTERED INTO BY AND BETWEEN YOU (OR IF YOU ARE
  ENTERING INTO THIS AGREEMENT ON BEHALF OF AN ENTITY, THEN THE ENTITY THAT YOU
