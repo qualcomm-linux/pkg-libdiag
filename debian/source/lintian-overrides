@@ -1,2 +1,3 @@
-# We are packaging prebuilt data with pre-calculated dependencies.
-qcom-libdiag source: package-depends-on-hardcoded-libc
+# proprietary software
+source-contains-prebuilt-binary [*]
+source-is-missing [*]

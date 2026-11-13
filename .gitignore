@@ -1,0 +1,5 @@
+qcom-diag/
+qcom-diag-dbgsym/
+qcom-libdiag/
+qcom-libdiag-dbgsym/
+qcom-libdiag-dev/

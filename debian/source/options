@@ -1,1 +1,2 @@
 tar-ignore=.
+extend-diff-ignore = "^(CODE-OF-CONDUCT\.md|CONTRIBUTING\.md|LICENSE\.txt|README\.md|SECURITY\.md|\.github|\.gitignore)$"

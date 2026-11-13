@@ -1,0 +1,2 @@
+# we have no control on how binaries are built
+hardening-no-bindnow [*]
